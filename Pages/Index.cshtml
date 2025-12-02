@@ -1,0 +1,27 @@
+@page
+@model Index
+@{
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+
+    <h1>Lista de Categorias</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>Descrição</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var item in Model.Categorias)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Nome</td>
+                    <td>@item.Descricao</td>
+                </tr>
+            }
+        </tbody>
+    </table>

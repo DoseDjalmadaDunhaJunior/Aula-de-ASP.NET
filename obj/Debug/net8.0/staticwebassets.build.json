@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "VC/FqXpCz41frZ/NmrZ5XC66maTk6bjGOpsT9P1nz9g=",
+  "Source": "Caralho",
+  "BasePath": "_content/Caralho",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Caralho/wwwroot",
+      "Source": "Caralho",
+      "ContentRoot": "/home/jos-djalma/Projetos/CS/Caralho/wwwroot/",
+      "BasePath": "_content/Caralho",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

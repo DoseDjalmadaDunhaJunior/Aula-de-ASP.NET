@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Razor App</title>
+</head>
+<style>
+    .flex{
+        display: flex;
+    }
+
+    .flex-row{
+        flex-direction: row;
+    }
+
+    .flex-column{
+        flex-direction: column;
+    }
+</style>
+<body>
+    <header>
+    <div>
+        <!--Tag Helper-->
+        <partial name="Shared/_NavMenuPartial"/>
+    </div>
+    </header>
+    <main>
+        @RenderBody()
+    </main>
+</body>
+</html>
