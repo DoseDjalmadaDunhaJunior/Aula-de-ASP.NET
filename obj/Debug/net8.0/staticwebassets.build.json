@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VC/FqXpCz41frZ/NmrZ5XC66maTk6bjGOpsT9P1nz9g=",
+  "Hash": "NZEhNuHMRz8YewfI3zzbAzbhSAdT3SP6aIttkjGmjAs=",
   "Source": "Caralho",
   "BasePath": "_content/Caralho",
   "Mode": "Default",
@@ -15,5 +15,25 @@
       "Pattern": "**"
     }
   ],
-  "Assets": []
+  "Assets": [
+    {
+      "Identity": "/home/jos-djalma/Projetos/CS/Caralho/wwwroot/css/site.css",
+      "SourceId": "Caralho",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/jos-djalma/Projetos/CS/Caralho/wwwroot/",
+      "BasePath": "_content/Caralho",
+      "RelativePath": "css/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/site.css"
+    }
+  ]
 }

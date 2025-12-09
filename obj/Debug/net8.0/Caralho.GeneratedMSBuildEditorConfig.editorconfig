@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /home/jos-djalma/Projetos/CS/Caralho
 build_property._RazorSourceGeneratorDebug = 
 
+[/home/jos-djalma/Projetos/CS/Caralho/Pages/Categorias.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2F0ZWdvcmlhcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/jos-djalma/Projetos/CS/Caralho/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -30,8 +34,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/jos-djalma/Projetos/CS/Caralho/Pages/Shared/_NavMenuPArtial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19OYXZNZW51UEFydGlhbC5jc2h0bWw=
+[/home/jos-djalma/Projetos/CS/Caralho/Pages/Shared/_NavMenuPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19OYXZNZW51UGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/jos-djalma/Projetos/CS/Caralho/Pages/Shared/_ViewImports.cshtml]

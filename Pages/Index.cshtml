@@ -2,26 +2,16 @@
 @model Index
 @{
     Layout = "~/Pages/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Home";
 }
 
-
-    <h1>Lista de Categorias</h1>
-    <table border="1">
-        <thead>
-            <tr>
-                <th>ID</th>
-                <th>Nome</th>
-                <th>Descrição</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach(var item in Model.Categorias)
-            {
-                <tr>
-                    <td>@item.Id</td>
-                    <td>@item.Nome</td>
-                    <td>@item.Descricao</td>
-                </tr>
-            }
-        </tbody>
-    </table>
+<div class="center" style="margin-top: 4rem;">
+    <h1 style="font-size: 3rem; margin-bottom: 1rem;">Bem-vindo ao My Razor App</h1>
+    <p style="font-size: 1.25rem; color: #aaa; margin-bottom: 2rem;">
+        Uma experiência moderna e performática construída com ASP.NET Core.
+    </p>
+    <div>
+        <a href="~/Categorias" class="btn" style="margin-right: 1rem;">Ver Categorias</a>
+        <a href="~/Sobre" class="btn" style="background-color: transparent; border: 2px solid var(--primary-color);">Saiba Mais</a>
+    </div>
+</div>

@@ -1,31 +1,23 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-    <title>My Razor App</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - My Razor App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 </head>
-<style>
-    .flex{
-        display: flex;
-    }
-
-    .flex-row{
-        flex-direction: row;
-    }
-
-    .flex-column{
-        flex-direction: column;
-    }
-</style>
 <body>
     <header>
-    <div>
-        <!--Tag Helper-->
-        <partial name="Shared/_NavMenuPartial"/>
-    </div>
+        <partial name="Shared/_NavMenuPartial" />
     </header>
-    <main>
+    <main role="main">
         @RenderBody()
     </main>
+    <footer>
+        &copy; 2025 - My Razor App - <a href="~/Privacy">Privacy</a>
+    </footer>
 </body>
 </html>

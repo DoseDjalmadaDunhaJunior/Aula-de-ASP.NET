@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "/home/jos-djalma/Projetos/CS/Caralho/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.Caralho.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.Caralho.props",
+      "PackagePath": "build\\Caralho.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.Caralho.props",
+      "PackagePath": "buildMultiTargeting\\Caralho.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Caralho.props",
+      "PackagePath": "buildTransitive\\Caralho.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

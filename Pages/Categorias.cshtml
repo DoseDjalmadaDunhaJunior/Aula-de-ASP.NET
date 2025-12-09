@@ -1,0 +1,31 @@
+@page
+@model MyRazorApp.Pages.CategoriasModel
+@{
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Categorias";
+}
+
+<div class="card">
+    <h1>Lista de Categorias</h1>
+    <div style="overflow-x: auto;">
+        <table style="width: 100%; border-collapse: collapse; margin-top: 1rem;">
+            <thead>
+                <tr style="background-color: var(--surface-color); color: var(--primary-color); text-align: left;">
+                    <th style="padding: 1rem; border-bottom: 2px solid var(--primary-color);">ID</th>
+                    <th style="padding: 1rem; border-bottom: 2px solid var(--primary-color);">Nome</th>
+                    <th style="padding: 1rem; border-bottom: 2px solid var(--primary-color);">Descrição</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach(var item in Model.Categorias)
+                {
+                    <tr style="border-bottom: 1px solid #333;">
+                        <td style="padding: 1rem;">@item.Id</td>
+                        <td style="padding: 1rem;">@item.Nome</td>
+                        <td style="padding: 1rem;">@item.Descricao</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
